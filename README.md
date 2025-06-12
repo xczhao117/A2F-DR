@@ -26,7 +26,7 @@ For MIMIC-III, put the four files, ADMISSIONS.csv, DIAGNOSES_ICD.csv, PRESCRIPTI
 For MIMIC-IV, put the four files, admissions.csv, diagnoses_icd.csv, prescriptions_filtered.csv, and procedures_icd.csv, into directory `./data/raw/mimic-iv`.
 
 ###
-Get other five files, drug-atc.csv, drug-DDI.csv, idx2SMILES.pkl, ndc2atc_level4.csv, and ndc2rxnorm_mapping.txt from [Carmen](https://github.com/bit1029public/Carmen) and put them into the directory `./data/raw`.
+Get other five files, drug-atc.csv, drug-DDI.csv, idx2SMILES.pkl, ndc2atc_level4.csv, and ndc2rxnorm_mapping.txt, from [Carmen](https://github.com/bit1029public/Carmen) and put them into the directory `./data/raw`.
 
 ## Process Data
 ### Molecules
