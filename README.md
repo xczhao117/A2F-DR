@@ -61,6 +61,7 @@ A2F-DR (β=0.9):
 ```python
 python ./src/run_mimic_iv.py --cuda 1 --epoch 120 --model_name FINAL_EHR_MOLf_acc_a0.95_ddi_g0.9
 ```
+
 A2F-DR (β=0.7):
 ```python
 python ./src/run_mimic_iv.py --cuda 1 --epoch 120 --model_name FINAL_EHR_MOLf_acc_a0.95_ddi_g0.7 --gamma 0.7
