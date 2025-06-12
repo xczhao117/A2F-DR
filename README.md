@@ -4,12 +4,15 @@ This is an implementation of our drug recommendation model A2F-DR for our submit
 
 ## Requirements
 Create the environment from environment.yaml.
-Follow the [FragNet](https://github.com/pnnl/FragNet) repository to install fragnet.
+
+Follow [FragNet](https://github.com/pnnl/FragNet) to install fragnet.
 
 ## Prepare Data
 ###Create the following directories.
 `mkdir -p ./data/raw/mimic-iii`
+
 `mkdir -p ./data/raw/mimic-iv`
+
 `mkdir -p ./data/processed`
 
 ###
