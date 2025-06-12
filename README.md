@@ -46,22 +46,22 @@ python ./src/processing_mimic_iv.py
 
 ## Train Model
 ### MIMIC-III
-A2F-DR (\beta=0.9):
+A2F-DR (β=0.9):
 ```python
 python ./src/run_mimic_iii.py --cuda 0 --epoch 120 --model_name EHR_MOLf_ACC_a0.95_DDI_g0.9 --use_mol_net --mol_net_type 3 --ddi
 ```
 
-A2F-DR (\beta=0.7):
+A2F-DR (β=0.7):
 ```python
 python ./src/run_mimic_iii.py --cuda 0 --epoch 120 --model_name EHR_MOLf_ACC_a0.95_DDI_g0.7 --gamma 0.7 --use_mol_net --mol_net_type 3 --ddi
 ```
 
 ### MIMIC-IV
-A2F-DR (\beta=0.9):
+A2F-DR (β=0.9):
 ```python
 python ./src/run_mimic_iv.py --cuda 1 --epoch 120 --model_name FINAL_EHR_MOLf_acc_a0.95_ddi_g0.9
 ```
-A2F-DR (\beta=0.7):
+A2F-DR (β=0.7):
 ```python
 python ./src/run_mimic_iv.py --cuda 1 --epoch 120 --model_name FINAL_EHR_MOLf_acc_a0.95_ddi_g0.7_ --gamma 0.7
 ```
