@@ -1,5 +1,5 @@
 # A2F-DR
-This is an implementation of our drug recommendation model A2F-DR for our submitted paper "Let Molecules Speak for Themselves: Atom-to-Fragment Graph Learning for Safe and Accurate Drug Recommendation".
+This is an implementation of our drug recommendation model A2F-DR in our submitted paper "Let Molecules Speak for Themselves: Atom-to-Fragment Graph Learning for Safe and Accurate Drug Recommendation".
 <hr>
 
 ## Requirements
@@ -67,7 +67,7 @@ python ./src/run_mimic_iv.py --cuda 1 --epoch 120 --model_name FINAL_EHR_MOLf_ac
 ```
 
 ## Test Model
-Add option `--Test` to the training command.
+Add option `--Test` to the training commands.
 
 
 
