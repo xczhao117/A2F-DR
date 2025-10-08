@@ -123,7 +123,7 @@ def main():
 	diag_voc, pro_voc, med_voc = voc['diag_voc'], voc['pro_voc'], voc['med_voc']
 	voc_size = (len(diag_voc.idx2word), len(pro_voc.idx2word), len(med_voc.idx2word))
 
-	metric_obj = Metrics(data, med_voc, args)
+	metric_obj = Metrics(data, med_voc, 'ddi_A_final_4.pkl', args)
 
 	split_point = int(len(data) * 2 / 3)
 	data_train = data[:split_point]
