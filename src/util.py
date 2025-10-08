@@ -364,7 +364,7 @@ def ddi_rate_score(record, path):
     # return dd_cnt
 
 class Metrics:
-    def __init__(self, data, med_voc, args=None):
+    def __init__(self, data, med_voc, ddi_fn, args=None):
         self.med_voc = med_voc
         data = data
         cnts = Counter()
@@ -388,7 +388,7 @@ class Metrics:
         print("thre idx: {}".format(i))
         self.lowfreqmedidx = self.medidx_ordered_desc[0:30]
         
-        ddi_adj_path = os.path.join(args.datadir, 'ddi_A_final.pkl')
+        ddi_adj_path = os.path.join(args.datadir, ddi_fn)
 
         self.ddi_adj = dill.load(open(ddi_adj_path, 'rb'))
     
